@@ -68,7 +68,7 @@ link_object_files:
 	$(SILENCE)$(CC) -o $(BUILD_HOME)/$(RUNNABLE_NAME) $(OBJECTS)
 
 run:
-	$(SILENCE)echo "Done! Running the program.."
+	$(SILENCE)echo "DONE! Running the program.."
 	$(SILENCE)echo ""
 	$(SILENCE)$(BUILD_HOME)/$(RUNNABLE_NAME)
 

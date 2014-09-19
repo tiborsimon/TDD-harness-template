@@ -2,7 +2,9 @@
     "folders":
     [
         {
-            "path": "/C/Users/Tibor/Documents/Repo/TDD-harness-template"
+            "path": "/C/Users/Tibor/Documents/Repo/TDD-harness-template",
+            "file_exclude_patterns": ["*.sublime-*",".gitignore"],
+            "folder_exclude_patterns": ["build"]
         }
     ],
     "build_systems":
