@@ -1,0 +1,19 @@
+{
+    "folders":
+    [
+        {
+            "path": "/C/Users/Tibor/Documents/Repo/TDD-harness-template"
+        }
+    ],
+    "build_systems":
+    [
+        {
+            "name": "TDD build for test",
+            "cmd": ["make", "test"]
+        },
+        {
+            "name": "TDD build for production",
+            "cmd": ["make"]
+        }
+    ]
+}

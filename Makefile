@@ -46,23 +46,30 @@ promt_test:
 	$(SILENCE)echo "Building module for unit testing..."
 
 create_build_folder:
+	$(SILENCE)echo "Creating building folder..."
 	$(SILENCE)mkdir $(BUILD_HOME)
 
 compile_sources:
+	$(SILENCE)echo "Compiling source files..."
 	$(SILENCE)$(CC) -c $(INCLUDES) $(SOURCES)
 
 remove_source_main:
+	$(SILENCE)echo "Removing the main object file for testing..."
 	$(SILENCE)rm main.o
 
 compile_tests:
+	$(SILENCE)echo "Compile test files..."
 	$(SILENCE)$(CC) -c $(INCLUDES) $(TESTS)
 
 link_object_files:
+	$(SILENCE)echo "Linking object files..."
 	$(SILENCE)mv *.o $(BUILD_HOME)
 	$(SILENCE)rm -rf *.o
 	$(SILENCE)$(CC) -o $(BUILD_HOME)/$(RUNNABLE_NAME) $(OBJECTS)
 
 run:
+	$(SILENCE)echo "Done! Running the program.."
+	$(SILENCE)echo ""
 	$(SILENCE)$(BUILD_HOME)/$(RUNNABLE_NAME)
 
 clean:
