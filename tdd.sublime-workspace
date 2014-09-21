@@ -11,7 +11,7 @@
 			"file": "tdd.sublime-project",
 			"settings":
 			{
-				"buffer_size": 470,
+				"buffer_size": 513,
 				"line_ending": "Unix"
 			}
 		},
@@ -68,6 +68,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"//",
 			"	"
 		],
 		"highlight": true,
@@ -86,7 +87,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -94,15 +95,15 @@
 					"file": "tdd.sublime-project",
 					"settings":
 					{
-						"buffer_size": 470,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								319,
+								319
 							]
 						],
 						"settings":
