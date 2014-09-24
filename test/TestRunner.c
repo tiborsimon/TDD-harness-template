@@ -1,11 +1,11 @@
 #include "unity_fixture.h"
 
-TEST_GROUP_RUNNER(MyModule) {
-  RUN_TEST_CASE(MyModule, MyFirstFailingTest);
+TEST_GROUP_RUNNER(LedDriver) {
+  RUN_TEST_CASE(LedDriver, MyFirstFailingTest);
 }
 
 static void RunAllTests(void) {
-  RUN_TEST_GROUP(MyModule);
+  RUN_TEST_GROUP(LedDriver);
 }
 
 int main(int argc, char* argv[]) {
