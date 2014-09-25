@@ -1,7 +1,8 @@
 #include "unity_fixture.h"
 
 TEST_GROUP_RUNNER(LedDriver) {
-  RUN_TEST_CASE(LedDriver, MyFirstFailingTest);
+  RUN_TEST_CASE(LedDriver, LedDriverCreate);
+  RUN_TEST_CASE(LedDriver, LedDriverTurnOnOneLed);
 }
 
 static void RunAllTests(void) {
