@@ -12,11 +12,13 @@
     [
         {
             "name": "TDD build for test",
-            "cmd": ["make", "test"]
+            "cmd": ["make", "test"],
+            "working_dir": "${project_path:${folder}}"
         },
         {
             "name": "TDD build for production",
-            "cmd": ["make"]
+            "cmd": ["make"],
+            "working_dir": "${project_path:${folder}}"
         }
     ]
 }
