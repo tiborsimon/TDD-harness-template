@@ -13,7 +13,7 @@ The other branches will point to my learning examples, partially based on the bo
 
 ###LedDriver###
 
-| Led driver, that can control a 16 bit led port assigned to a memory address. | [![Build Status](https://travis-ci.org/tiborsimon/TDD-harness-template.svg?branch=LedDriver)](https://travis-ci.org/tiborsimon/TDD-harness-template) |
+Led driver, that can control a 16 bit led port assigned to a memory address. [![Build Status](https://travis-ci.org/tiborsimon/TDD-harness-template.svg?branch=LedDriver)](https://travis-ci.org/tiborsimon/TDD-harness-template)
 
 ---
 
