@@ -11,7 +11,9 @@ The __master__ branch will always point to the latest version of the test harnes
 
 The other branches will point to my learning examples, partially based on the book _Test Driven Development for Embedded C_ (https://pragprog.com/book/jgade/test-driven-development-for-embedded-c), and partially my _Simple Input_ project.
 
-__LedDriver__ [![Build Status](https://travis-ci.org/tiborsimon/TDD-harness-template.svg?branch=LedDriver)](https://travis-ci.org/tiborsimon/TDD-harness-template) A simple led driver that can control a 16 bit led port assigned to a memory address. 
+###LedDriver### 
+
+[![Build Status](https://travis-ci.org/tiborsimon/TDD-harness-template.svg?branch=LedDriver)](https://travis-ci.org/tiborsimon/TDD-harness-template) A simple led driver that can control a 16 bit led port assigned to a memory address. 
 
 ---
 
