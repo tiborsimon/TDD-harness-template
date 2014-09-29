@@ -3,6 +3,8 @@ TDD-harness-template
 
 Test harness template to use __TDD__ in __embedded systems__ in C.
 
+[![Build Status](https://travis-ci.org/tiborsimon/TDD-harness-template.svg)](https://travis-ci.org/tiborsimon/TDD-harness-template)
+
 The __current v1.0__ version uses __Unity__ (http://throwtheswitch.org/) to run the tests, but in the future I plan to use __Cpputest__ (http://cpputest.github.io/) as the main test framework.
 
 ---
