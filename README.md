@@ -5,7 +5,7 @@ Test harness template to use __TDD__ in __embedded systems__ in C.
 
 The __current v1.0__ version uses __Unity__ (http://throwtheswitch.org/) to run the tests, but in the future I plan to use __Cpputest__ (http://cpputest.github.io/) as the main test framework.
 
----
+====================
 
 The __master__ branch will always point to the latest version of the test harness.
 
@@ -13,7 +13,7 @@ The other branches will point to my learning examples, partially based on the bo
 
 * __LedDriver__ [![Build Status](https://travis-ci.org/tiborsimon/TDD-harness-template.svg?branch=LedDriver)](https://travis-ci.org/tiborsimon/TDD-harness-template) A driver that can control a 16 bit led port assigned to a memory address. 
 
----
+====================
 
 You need _Cygwin_ to compile the sources. I have installed the _Dev_ package to run this, but basically you only need gcc and make to be able to compile. 
 
